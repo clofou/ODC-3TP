@@ -45,7 +45,7 @@ class Table:
         """)
     # Une méthode de calcul de gain prévu par rapport au stock.
     def calculDeGain(self):
-        return (self.prixDeVente-self.__prixDeFabrication)*self.__nombreDeTableEnStock
+        print("Gain= ", (self.prixDeVente-self.__prixDeFabrication)*self.__nombreDeTableEnStock)
         
 
 # Programme Principal
@@ -58,4 +58,4 @@ table2.afficherInformation()
 table1.setPrixDeFabrication(5000)
 print(table1.getPrixDeFabrication())
 
-print("Gain =", table2.calculDeGain())
+table2.calculDeGain()

@@ -58,8 +58,8 @@ personne1 = Personne(nom="Fakoro", prenom="Traore", cin="25A35BC")
 
 personne1.toString()
 
-vaccine1 = Vaccine(nom="Papou", prenom="Keita", cin="19J1M1045Z", code="45A2B", date="12/05/2021")
-vaccine2 = Vaccine(nom="Henry", prenom="Hart", cin="00AZ4500", code="54BC2", date="14/12/2018")
+vaccine1 = Vaccine(nom="Papou", prenom="Keita", cin="19J1M1045Z", code=122, date="12/05/2021")
+vaccine2 = Vaccine(nom="Henry", prenom="Hart", cin="00AZ4500", code=36, date="14/12/2018")
 
 vaccine2.toString()
 vaccine1.setcodeDeVaccination("002500B")
